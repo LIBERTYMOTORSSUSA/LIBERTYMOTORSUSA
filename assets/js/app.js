@@ -717,11 +717,23 @@
     window.scrollTo(0, 0);
   });
 
+  
   /* ---------------------------------------------------------
      INITIALIZE
   --------------------------------------------------------- */
 
+  const savedRoute = sessionStorage.getItem("liberty_redirect");
+
+  if (savedRoute) {
+    sessionStorage.removeItem("liberty_redirect");
+
+    window.history.replaceState(
+      {},
+      "",
+      REPO + savedRoute
+    );
+  }
+
   render();
 
 })();
-
