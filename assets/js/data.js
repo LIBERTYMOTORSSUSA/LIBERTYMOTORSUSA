@@ -84,28 +84,121 @@ window.LIBERTY_DATA = {
     }
   ],
 
-  services: [
-    {
-      id: "automotive-parts-sourcing",
-      name: "Automotive Parts Sourcing",
-      category: "Parts",
-      price: "Request a Quote",
-      availability: "Available",
-      image: "",
-      description:
-        "We help customers source automotive components suited to their vehicle and requirements."
-    },
-    {
-      id: "vehicle-sales-assistance",
-      name: "Vehicle Sales Assistance",
-      category: "Vehicle Sales",
-      price: "Contact Us",
-      availability: "Available",
-      image: "",
-      description:
-        "Get assistance finding a vehicle that matches your preferences and requirements."
-    }
-  ],
+  
+services: [
+
+  {
+    id: "automotive-repair",
+    name: "Automotive Repair",
+    category: "Mechanical Services",
+    price: "Request a Quote",
+    availability: "Available",
+    image: "",
+    description: "Professional automotive repair solutions to help keep your vehicle performing at its best."
+  },
+
+  {
+    id: "vehicle-diagnostics",
+    name: "Vehicle Diagnostics",
+    category: "Mechanical Services",
+    price: "Request a Quote",
+    availability: "Available",
+    image: "",
+    description: "Vehicle fault detection and diagnostic services to identify mechanical and electronic issues."
+  },
+
+  {
+    id: "window-tinting",
+    name: "Window Tinting",
+    category: "Vehicle Customization",
+    price: "Request a Quote",
+    availability: "Available",
+    image: "",
+    description: "Professional automotive window tinting for privacy, comfort and a refined appearance."
+  },
+
+  {
+    id: "ceramic-coating",
+    name: "Ceramic Coating",
+    category: "Paint Protection",
+    price: "Request a Quote",
+    availability: "Available",
+    image: "",
+    description: "Premium ceramic coating solutions designed to protect your vehicle's exterior and enhance its finish."
+  },
+
+  {
+    id: "paint-protection-film",
+    name: "Paint Protection Film (PPF)",
+    category: "Paint Protection",
+    price: "Request a Quote",
+    availability: "Available",
+    image: "",
+    description: "Protect vulnerable vehicle paintwork with professionally installed paint protection film."
+  },
+
+  {
+    id: "vehicle-detailing",
+    name: "Vehicle Detailing",
+    category: "Appearance Services",
+    price: "Request a Quote",
+    availability: "Available",
+    image: "",
+    description: "Interior and exterior detailing to restore cleanliness, appearance and presentation."
+  },
+
+  {
+    id: "bodywork-and-painting",
+    name: "Bodywork & Painting",
+    category: "Body Services",
+    price: "Request a Quote",
+    availability: "Available",
+    image: "",
+    description: "Automotive bodywork, refinishing and professional paint restoration."
+  },
+
+  {
+    id: "custom-wheels-and-rims",
+    name: "Custom Wheels & Rims",
+    category: "Vehicle Customization",
+    price: "Request a Quote",
+    availability: "Available",
+    image: "",
+    description: "Custom wheel and rim upgrades to transform your vehicle's appearance and stance."
+  },
+
+  {
+    id: "suspension-upgrades",
+    name: "Suspension Upgrades",
+    category: "Performance Upgrades",
+    price: "Request a Quote",
+    availability: "Available",
+    image: "",
+    description: "Suspension modifications and upgrades tailored to your vehicle and driving preferences."
+  },
+
+  {
+    id: "audio-and-entertainment",
+    name: "Audio & Entertainment Installation",
+    category: "Vehicle Accessories",
+    price: "Request a Quote",
+    availability: "Available",
+    image: "",
+    description: "Vehicle audio, multimedia and entertainment system upgrades and installations."
+  },
+
+  {
+    id: "interior-and-exterior-accessories",
+    name: "Interior & Exterior Accessories",
+    category: "Vehicle Accessories",
+    price: "Request a Quote",
+    availability: "Available",
+    image: "",
+    description: "Upgrade your vehicle with carefully selected interior and exterior accessories."
+  }
+
+],
+
 
   pages: {
     about: {
